@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.id, .sabores{
+    color: #007e7e;
+}
+.hr{
+    color:#007e7e;
+    size: 10px;
+    background-color: #007e7e;
+}
+#verde{
+    color:green;
+}
+#azul{
+    color:blue;
+}
+#roxo{
+    color:purple;
+}
+#vermelho{
+    color:red;
+}
+#obs{
+    color:silver;
+    text-align: center;
+}

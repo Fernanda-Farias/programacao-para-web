@@ -1,0 +1,25 @@
+.bgfoto{
+    background-image: url(2-Matrix/matrix/fundo_matrix.jpg);
+}
+.h21{
+    color: white;
+}
+.h22{
+    color: white;
+    margin-left: 65%;
+}
+.imgneo{
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+
+}
+p{
+    color: white;
+    text-indent: 30px;
+}
+div{
+    background-color: black;
+}
+img{
+    margin: 0% 15% 0% 0%;
+}

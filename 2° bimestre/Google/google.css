@@ -1,0 +1,49 @@
+p{
+    color:silver;
+    text-align: right;
+}
+.azul{
+    color:blue;
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.vermelho{
+    color:red;
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.laranja{
+    color:orange;
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.verde{
+    color:green;
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: bold;
+}
+hr{
+    border-radius: 40px;
+    width: 500px;
+    height: 35px;
+    border: solid 1px silver;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    margin-right: 30px;
+}
+button{
+    color: black;
+    font-family: Arial;
+    background-color: DCDCDC;
+    border: none;
+    margin-left: 30px;
+    padding: 10px;
+
+}
