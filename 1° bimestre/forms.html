@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="www.testedeforms/cadastro" method="post">
+        <p>Nome:<input type="text" id="nome" name="nome" maxlenght="60" autofocus/></p>  
+
+        <p>Senha:<input type="password" id="senha" name="senha" maxlenght="15" value="Digite sua senha aqui" onfocus="value='';"/></p>
+
+        Qual seu hobbie?
+<br><br>
+        <input type="checkbox" value="dançar" name="ckb_hobbies" id="ckb1"/>Dançar
+        <input type="checkbox" value="pescar" name="pescar" id="ckb2" checked="checked"/>Pescar
+        <p>Qual seu sexo?</p>
+        <input type="radio" value="m" id="sexo" name="sexo"/>Masculino
+        <input type="radio" value="f" id="sexo" name="sexo"/> Feminino
+        <input type="radio" value="o" id="sexo" name="sexo"/>Outro
+
+        <p>Fale um pouco sobre você</p>
+        <textarea cols="30" name="descricao" id="descricao" rows="3"></textarea>
+
+        <p>Qual sua cidade?</p>
+    
+        <select name="cidades" size>
+            <option value="Parnaíba">Parnaíba</option>
+            <option value="Luis Correa">Luis Correa</option>
+        </select>
+
+        <input type="reset" name="limpar" value="Limpar"/>
+        <input type="submit" name="Enviar" value="enviar"/>
+
+    </form>
+    
+</body>
+</html>
