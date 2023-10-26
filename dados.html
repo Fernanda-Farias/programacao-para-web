@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta de dados</title>
+    <link rel="stylesheet" type="text/css" href="dados.css"/>
+    <script type="text/javascript" src="dados.js"></script>
+</head>
+<body>
+<div name="dados">
+    <form name="form1">
+    Nome e Sobrenome
+    <input type="text" name="nome" value="Digite seu nome e sobrenome" onfocus="value=''"> <br><br>
+    Idade <br>
+    <input type="text" name="idade" value="Digite sua idade" onfocus="value=''"> <br><br>
+    Peso <br>
+    <input type="text" name="peso" value="Digite seu peso" onfocus="value=''"> <br><br>
+    Altura <br>
+    <input type="text" name="altura" value="Digite sua altura" onfocus="value=''"> <br><br>
+
+    <button type="button" onclick="dados()">Enviar Formulário</button> <br>
+    </form>
+</div>
+
+<div>
+    <h1>Calcule seu IMC Aqui</h1>
+    <h2 id="resultado"></h2>
+    <h3 id="classificacao"></h3>
+</div>
+</body>
+</html>
