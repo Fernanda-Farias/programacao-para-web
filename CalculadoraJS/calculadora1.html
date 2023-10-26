@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="calculadora1.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Calculadora</legend>
+        <form name="formulario1">
+            Valor 1: <input type="number" name="valor1"> <br>
+            Valor 2: <input type="number" name="valor2"> <br> <br>
+            <button type="button" onclick="Calcular(1)"> + </button>
+            <button type="button" onclick="Calcular(2)"> - </button>
+            <button type="button" onclick="Calcular(3)"> * </button>
+            <button type="button" onclick="Calcular(4)"> / </button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Resultado</legend>
+        <form> 
+            <span class="resultado"></span>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
