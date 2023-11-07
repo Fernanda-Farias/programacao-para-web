@@ -12,7 +12,6 @@ function on(){
 
 function calculo(){
     if (imagem == null) {
-    // carro = String(document.formulario1.carro.value);
     carro = document.getElementById('carro').value
     valor = parseFloat(document.getElementById('valor').value)
     km = parseFloat(document.getElementById('km').value)
